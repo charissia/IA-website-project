@@ -1,0 +1,259 @@
+*
+{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+
+header
+{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 2.0s;
+    z-index: 100000;
+    padding: 20px 20px;
+}
+
+
+
+header.sticky
+{
+    padding: 10px 10px;
+    background: #183529;
+}
+
+header ul
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 1.0s;
+    border-radius: 20px;
+}
+
+header .ThePiecesLogo
+{
+  width: 120px;
+  background-position: center;
+}
+
+.banner 
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url( pieces\ 2.jpg);
+    background-size:cover ;
+}
+
+.banner .content h2
+{
+  color: #fff;
+  font-size: 68px;
+  letter-spacing: 0.05em;
+  transform: uppercase;
+  text-align: center;
+  position: relative;
+  line-height: 1.6em;
+  padding-top: 300px;
+  
+}
+
+.banner .content p
+{
+  color: white;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-align: center;
+  position: relative;
+  
+}
+
+header ul li a:hover
+{
+    background: #000;
+    color: #fff;
+}
+
+
+header.sticky .name,
+header.sticky ul li a
+{
+    color: #fff;
+}
+
+
+
+.aboutus1
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.aboutus1 .imgBx1
+{
+    background: url(bible.jpg);
+    width: 35%;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutus1 .contentBx1
+{
+    background: #9f7657;
+    padding: 50px;
+    width: 50%;
+}
+
+.heading
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.text
+{  
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+
+.aboutus1 .imgBx11
+{
+    background-color: #48352f;
+    width: 15%;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutus2
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.aboutus2 .imgBx2
+{
+    background-color: #a43a03;
+    width: 15%;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutus2 .contentBx2
+{
+    background: #6e1e03;
+    padding: 50px;
+    width: 50%;
+}
+
+.text2
+{  
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+.aboutus2 .imgBx22
+{
+    background: url(candle.jpg);
+    width: 35%;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading2
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+.aboutus3
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.aboutus3 .imgBx3
+{
+    background: url(Cross.jpg);
+    width: 35%;
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutus3 .contentBx3
+{
+    background: #9f7657;
+    padding: 50px;
+    width: 50%;
+}
+
+.heading3
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.text3
+{  
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2.5px;
+}
+
+.aboutus3 .imgBx33
+{
+    background-color: #48352f;
+    width: 15%;
+    background-size: cover;
+    background-position: center;
+}
+
