@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Our Ministry.css">
+    <title>Our Ministry</title>
+</head>
+    <header>
+        <img class="ThePiecesLogo" src="Logo.png" alt="The Pieces">
+        <ul>
+            <li> <a href="Home.html">Home</a></li>
+            <li> <a href="Our Ministry.html">Our Ministry</a></li>
+            <li> <a href="Schedules.html">Schedules</a></li>
+            <li> <a href="Testimony.html">Testimony</a></li>
+        </ul>
+    </header>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header")
+            header.classList.toggle("sticky", window.scrollY > 0);
+       })
+    </script>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Our Ministry</h1>
+                <p> THE PIECES  Menyadari pakaian lama sudah kita kenakan sejak lama, bahkan sejak pembentukan masa kecil di tengah keluarga, 
+                    dan menyatu dengan kehidupan pribadi setiap orang. 
+                    Disinilah letak kepentingan renovation of the heart, sebagai pusat kehidupan manusia untuk dibentuk ulang didalam Kristus.
+                    Kesadaran ini menuntut upaya ekstra dalam proses melepaskan pakaian lama ini.
+                </p>
+                <button type="button"><a href="https://forms.gle/f4mATgGU7FXhUZVa7">Join Our Ministry</a> </button> 
+            </div>
+        
+            <div class="col1">
+                <a href=".Seminary.html">
+                    <button type="button" class="card card1">
+                        <h5 class="text">Seminary</h5>
+                    </button>
+                 </a>
+                 <a href="Preaching.html">
+                    <button type="button" class="card card2">
+                        <h5 class="text">Preaching</h5>
+                    </button>
+                 </a>
+                 <a href="1yearspiritualformation.html">
+                    <button type="button" class="card card3">
+                        <h5 class="text">1 Year Spiritual Formation</h5>
+                    </button>
+                 </a>
+                <a href="OtherMinistry.html">
+                    <button type="button" class="card card4">
+                        <h5 class="text"> Other Ministry </h5>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
