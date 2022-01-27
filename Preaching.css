@@ -1,0 +1,285 @@
+*
+{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+
+
+header
+{
+    position:fixed ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 2.0s;
+    z-index: 100000;
+    padding: 20px 20px;
+}
+
+
+
+header.sticky
+{
+    padding: 10px 10px;
+    background: #183529;
+}
+
+header ul
+{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+header ul li
+{
+    position: relative;
+    list-style: none;
+}
+
+header ul li a
+{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 1.0s;
+    border-radius: 20px;
+}
+
+header .ThePiecesLogo
+{
+  width: 120px;
+  background-position: center;
+}
+
+
+header ul li a:hover
+{
+    background: #000;
+    color: #fff;
+}
+
+
+.banner 
+{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(70, 54, 54, 0.7)), url(Preaching.coverpage.jpg);;
+    background-position: center;
+    font-family: 'Noto Serif', serif;
+}
+
+.banner .content h1
+{
+    font-size: 85px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700px ;
+    font-style: italic;
+    letter-spacing: 3px;
+    text-align: center;
+    white-space: pre-wrap;
+    color: white;
+    position: relative;
+    padding-top: 200px;
+}
+
+.banner .content p
+{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700px ;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    position: relative;
+    margin-top: 15px;
+}
+
+
+header.sticky .name,
+header.sticky ul li a
+{
+    color: #fff;
+}
+
+body h2
+{
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700px ;
+    font-style: italic;
+    text-align: center;
+    color: #8b9886;
+    padding: 20px;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+body p
+{
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700px ;
+    font-style: normal;
+    text-align: center;
+    color: #8b9886;
+    padding: 5px;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.divider
+{
+    
+  border-top: 8px solid #8b9886;
+  border-radius: 200px;
+}
+
+.row
+{
+    display: flex;
+    align-items: center;
+}
+
+.video
+{
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+
+.video h3
+{
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700px ;
+    font-style: italic;
+    text-align: center;
+    color: #8b9886;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.video p
+{
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 700px ;
+    font-style: normal;
+    text-align: center;
+    color: #8b9886;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+
+.footer-container
+{
+  background-color: #8b9886;
+}
+
+.footer
+{
+  align-items: center;
+  display: flex;
+  color: white;
+  padding-bottom: 2rem;
+}
+.Pieces
+{
+  width: 30%;
+  display: flex;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+
+.Pieces h2
+{
+  display: flex;
+  text-align: center;
+  font-size: 40;
+  letter-spacing: 3px;
+}
+
+
+.footer-aboutus
+{
+  flex-direction: column;
+  display: flex;
+  padding-top : 2rem;
+  text-align: center;
+  padding-left: 2rem;
+  width: 20%;
+}
+
+.footer-aboutus h2
+{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+
+.footer-aboutus a
+{
+  color: white;
+  text-decoration: none;
+  margin: buttom 0.5rem;
+}
+
+.footer-aboutus a:hover
+{
+  color: black;
+  transition: 0.3s ease-out;
+}
+
+.footer-emailform h2
+{
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+#footer-email
+{
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+#footer-email::placeholder
+{
+  color: #b1b1b1;
+}
+
+#footer-email-btn
+{
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #8b9886;
+}
+
+#footer-email-btn:hover
+{
+  cursor: pointer;
+  background-color:#ffffffc9 ;
+  transition: all 0.4s ease-out;
+  color: #000;
+}
+
