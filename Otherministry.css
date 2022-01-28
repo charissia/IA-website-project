@@ -74,7 +74,7 @@ header ul li a:hover
 {
     position: relative;
     width: 100%;
-    height: 90vh;
+    height: 30vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0, 0, 0, 0.7)), url(Otherministrycover.jpg);;
     background-position: center;
     font-family: 'Noto Serif', serif;
