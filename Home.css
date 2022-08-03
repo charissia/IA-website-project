@@ -254,6 +254,17 @@ header.sticky ul li a
     border-radius:200px!important;
   }
   
+  .circle:hover {
+      position: absolute;
+     width: 400px;
+     height:280px;
+     margin: 30px;
+     box-shadow: 20px 20 px 50 px rgba (0,0,0,0.5);
+     border-radius: 15px
+     background: rgba (255,255,255,0.1);
+}
+
+
   span[data-title]:hover:after, 
   div[data-title]:hover:after {
     font: 20px'Roboto'; 
